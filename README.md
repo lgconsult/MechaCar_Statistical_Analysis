@@ -18,5 +18,11 @@ The tables show that lot 3 has the highest variance PSI at 170.29, meaning they 
 
 
 ## T-Tests on Suspension Coils
-The P Value for our T test was less than .05 meaning we can reject our null hypothesis and the means at the different plants are statistically different.
+
+The P Value on the overall data set was equal to 1 meaning we cannot reject our null hypothesis that all manufacturing lots are not statistically different from the population mean of 1500 PSI.  
+![Overall T Test](https://github.com/lgconsult/MechaCar_Statistical_Analysis/blob/main/overall_t_test.png)
+The P Value for our T test was less than .05 on all of our lot data meaning we can reject our null hypothesis and this means that the different plants are statistically different from the population mean of 1500 PSI.
 ![lot T test](https://github.com/lgconsult/MechaCar_Statistical_Analysis/blob/main/lot_t-test.png)
+
+## Study Design: MechaCar vs Competition
+We can compare MechaCar vehicles to those of the competition based on consumer preferences. We would set these preferences as our variables. These could be car cost, MPG, horse power, maintenance cost, or safety rating.
